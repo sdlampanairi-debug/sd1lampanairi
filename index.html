@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#173b67" />
+  <meta name="description" content="Website profil SD Negeri 1 Lampanairi. Informasi sekolah, tenaga pendidik, fasilitas, galeri, dan kontak." />
+  <title>SD Negeri 1 Lampanairi | Website Profil Sekolah</title>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#konten">Lewati ke konten</a>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span><span class="top-dot"></span> Website Profil Sekolah</span>
+      <span>SD Negeri 1 Lampanairi</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="atas">
+    <div class="container nav-wrap">
+      <a class="brand" href="#beranda" aria-label="SD Negeri 1 Lampanairi - Beranda">
+        <img src="logo.png" alt="Logo Tut Wuri Handayani" class="brand-logo" />
+        <span class="brand-copy"><strong>SD NEGERI 1 LAMPANAIRI</strong><small>Mendidik dengan hati, tumbuh meraih prestasi</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <a class="nav-link active" href="#beranda">Beranda</a>
+        <a class="nav-link" href="#profil">Profil</a>
+        <a class="nav-link" href="#guru">Guru</a>
+        <a class="nav-link" href="#fasilitas">Fasilitas</a>
+        <a class="nav-link" href="#galeri">Galeri</a>
+        <a class="nav-link nav-contact" href="#kontak">Kontak <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten">
+    <section class="hero section-anchor" id="beranda">
+      <!-- SLIDESHOW BERANDA
+           Foto berganti otomatis. Untuk menambah/mengganti foto, cukup tambah/ubah baris <img> di bawah.
+           data-caption = teks kecil di pojok kanan bawah; style object-position = bagian foto yang diutamakan. -->
+      <div class="hero-slides">
+        <img class="hero-slide is-active" src="beranda-1.jpg" alt="Foto bersama guru SD Negeri 1 Lampanairi" data-caption="Kebersamaan Guru" style="object-position:center 45%" fetchpriority="high" />
+        <img class="hero-slide" src="beranda-2.jpg" alt="Kegiatan Hari Belajar Guru SDN 1 Lampanairi dengan materi Kompetensi pada Domain Aljabar" data-caption="Hari Belajar Guru" style="object-position:center 50%" decoding="async" />
+        <img class="hero-slide" src="beranda-3.jpg" alt="Siswa belajar menggunakan laptop di ruang kelas" data-caption="Kegiatan Belajar Siswa" style="object-position:center 60%" decoding="async" />
+        <img class="hero-slide" src="beranda-4.jpg" alt="Foto bersama guru SD Negeri 1 Lampanairi" data-caption="Semangat Bersama" style="object-position:center 45%" decoding="async" />
+        <img class="hero-slide" src="beranda-5.jpg" alt="Siswa mengerjakan tugas menggunakan laptop di kelas" data-caption="Belajar Berbasis Komputer" style="object-position:center 60%" decoding="async" />
+      </div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> SELAMAT DATANG DI WEBSITE SEKOLAH</div>
+        <h1>Tempat belajar,<br /><em>bertumbuh,</em> dan meraih cita-cita.</h1>
+        <p>SD Negeri 1 Lampanairi berkomitmen mendukung tumbuh kembang peserta didik melalui pembelajaran, karakter, dan lingkungan sekolah yang positif.</p>
+        <div class="hero-actions">
+          <a href="#profil" class="button button-gold">Kenali Sekolah <span aria-hidden="true">↗</span></a>
+          <a href="#galeri" class="button button-ghost">Lihat Galeri <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✦</span><span><strong>Belajar hari ini, berkarya esok hari.</strong><small>Ruang tumbuh bagi generasi masa depan.</small></span></div>
+      </div>
+      <div class="hero-slider-ui">
+        <div class="hero-counter" aria-hidden="true"><strong id="heroCurrent">01</strong><span></span><small id="heroCaption">Kebersamaan Guru</small></div>
+        <div class="hero-controls">
+          <button type="button" class="hero-btn hero-arrow" id="heroPrev" aria-label="Foto sebelumnya">←</button>
+          <div class="hero-dots" id="heroDots"></div>
+          <button type="button" class="hero-btn hero-arrow" id="heroNext" aria-label="Foto berikutnya">→</button>
+          <button type="button" class="hero-btn hero-pause" id="heroPause" aria-label="Jeda slideshow" aria-pressed="false"><span class="pause-icon" aria-hidden="true"></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section section-pad section-anchor" id="profil">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-index">01 / PROFIL SEKOLAH</span><h2>Mengenal <span>sekolah kami.</span></h2></div>
+          <p>Informasi dasar sekolah dan nilai-nilai yang menjadi arah dalam mendampingi peserta didik.</p>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-story">
+            <div class="story-image" role="img" aria-label="Gedung SD Negeri 1 Lampanairi"></div>
+            <div class="story-content">
+              <span class="mini-tag">PROFIL SINGKAT</span>
+              <h3>SD Negeri 1 Lampanairi</h3>
+              <p>SD Negeri 1 Lampanairi merupakan sekolah dasar negeri yang berada di Desa Lampanairi, Kecamatan Batauga, Kabupaten Buton Selatan. Sekolah ini memiliki 12 guru dan 4 tenaga kependidikan yang mendampingi peserta didik dalam kegiatan belajar sehari-hari.</p>
+            </div>
+          </article>
+            <div class="detail-card detail-card-blue visi-card">
+              <div class="detail-icon">◎</div><div><span>VISI SEKOLAH</span><h3>Terwujudnya peserta didik yang beriman, berkarakter dan cerdas melalui pembelajaran yang berkesadaran, bermakna dan menggembirakan, guna membentuk pembelajar sepanjang hayat yang unggul dan berbudaya.</h3></div>
+            </div>
+            <div class="detail-card misi-card">
+              <div class="detail-icon detail-icon-gold">↗</div><div><span>MISI SEKOLAH</span>
+                <ol class="misi-list">
+                  <li>Mewujudkan pembelajaran yang <em>mindful</em>, <em>meaningful</em>, dan menggembirakan (<em>joyful</em>).</li>
+                  <li>Meningkatkan kompetensi guru melalui pelatihan dan Komunitas Belajar (Kombel).</li>
+                  <li>Membina karakter dan menciptakan Sekolah Ramah Anak bebas perundungan.</li>
+                  <li>Menyediakan sarana-prasarana yang nyaman dan terawat.</li>
+                  <li>Menjalin kemitraan dengan orang tua dan masyarakat/UMKM.</li>
+                  <li>Mewujudkan tata kelola sekolah yang transparan dan berbasis digital.</li>
+                </ol>
+              </div>
+            </div>
+            <div class="identity-card">
+              <div class="identity-top"><h3>Identitas Sekolah</h3><span class="identity-badge">DATA SEKOLAH</span></div>
+              <dl>
+                <div><dt>Nama sekolah</dt><dd>SD Negeri 1 Lampanairi</dd></div>
+                <div><dt>Jenjang</dt><dd>Sekolah Dasar (SD)</dd></div>
+                <div><dt>Alamat</dt><dd>Desa Lampanairi, Kec. Batauga,<br />Kab. Buton Selatan, Sulawesi Tenggara</dd></div>
+                <div><dt>NPSN</dt><dd><a href="https://referensi.data.kemendikdasmen.go.id/pendidikan/npsn/40401057" target="_blank" rel="noopener noreferrer" class="dd-link">40401057 <span aria-hidden="true">↗</span></a></dd></div>
+                <div><dt>Akreditasi</dt><dd>C</dd></div>
+              </dl>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teachers-section section-pad section-anchor" id="guru">
+      <div class="container">
+        <div class="section-heading section-heading-light">
+          <div><span class="section-index">02 / TENAGA PENDIDIK</span><h2>Orang-orang di balik<br /><span>setiap langkah belajar.</span></h2></div>
+          <p>Guru dan tenaga kependidikan mendampingi peserta didik untuk belajar, berkembang, dan menemukan potensi diri.</p>
+        </div>
+        <div class="staff-overview">
+          <div class="staff-photo" role="img" aria-label="Foto bersama guru SD Negeri 1 Lampanairi"></div>
+          <div class="staff-stats">
+            <div class="staff-stat"><strong>12</strong><span>Guru</span><p>Mendampingi peserta didik dalam kegiatan belajar di kelas.</p></div>
+            <div class="staff-stat"><strong>4</strong><span>Tenaga Kependidikan</span><p>Termasuk kepala sekolah.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facilities-section section-pad section-anchor" id="fasilitas">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-index">03 / SARANA & PRASARANA</span><h2>Ruang untuk belajar<br /><span>dan berkembang.</span></h2></div>
+          <p>Kenali lingkungan dan fasilitas yang mendukung kegiatan belajar di SD Negeri 1 Lampanairi.</p>
+        </div>
+        <div class="facility-grid">
+          <article class="facility-card"><div class="facility-photo facility-classroom" role="img" aria-label="Siswa belajar di ruang kelas VI SD Negeri 1 Lampanairi"></div><div class="facility-caption"><div><span>01 / PEMBELAJARAN</span><h3>Ruang Kelas</h3><p>Ruang utama untuk kegiatan belajar mengajar.</p></div><span class="round-arrow">↗</span></div></article>
+          <article class="facility-card"><div class="facility-photo facility-library" role="img" aria-label="Rak buku di perpustakaan SD Negeri 1 Lampanairi"></div><div class="facility-caption"><div><span>02 / LITERASI</span><h3>Perpustakaan</h3><p>Ruang untuk membaca dan mengenal pengetahuan.</p></div><span class="round-arrow">↗</span></div></article>
+          <article class="facility-card"><div class="facility-photo facility-tik" role="img" aria-label="Siswa menggunakan laptop di ruang kelas"></div><div class="facility-caption"><div><span>03 / TEKNOLOGI</span><h3>Sarana TIK</h3><p>Laptop yang digunakan siswa untuk kegiatan belajar berbasis komputer.</p></div><span class="round-arrow">↗</span></div></article>
+    </section>
+
+    <section class="gallery-section section-pad section-anchor" id="galeri">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-index">04 / GALERI SEKOLAH</span><h2>Cerita kecil, <span>makna besar.</span></h2></div>
+          <p>Dokumentasi kegiatan sekolah menjadi cara untuk berbagi semangat belajar dan kebersamaan.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item" data-image="pramuka" data-caption="Kegiatan Pramuka" aria-label="Lihat 4 foto kegiatan pramuka"><span class="gallery-image gallery-photo-2"></span><span hidden class="gallery-slide gallery-photo-1" data-cap="Pengibaran Panji Pramuka"></span><span hidden class="gallery-slide gallery-photo-2" data-cap="Perkemahan Pramuka"></span><span hidden class="gallery-slide gallery-photo-3" data-cap="Pembinaan Pramuka di Kelas"></span><span hidden class="gallery-slide gallery-photo-4" data-cap="Peserta Pramuka di Kelas"></span><span class="gallery-overlay"><span><small>4 FOTO</small><strong>Kegiatan Pramuka</strong></span><i>↗</i></span></button>
+          <button class="gallery-item" data-image="upacara" data-caption="Upacara Bendera" aria-label="Lihat 6 foto upacara bendera"><span class="gallery-image gallery-photo-24"></span><span hidden class="gallery-slide gallery-photo-19" data-cap="Petugas Upacara dan Barisan Peserta"></span><span hidden class="gallery-slide gallery-photo-20" data-cap="Petugas Upacara Membacakan Teks"></span><span hidden class="gallery-slide gallery-photo-21" data-cap="Pembina Upacara di Lapangan Sekolah"></span><span hidden class="gallery-slide gallery-photo-22" data-cap="Petugas Upacara Memasuki Lapangan"></span><span hidden class="gallery-slide gallery-photo-23" data-cap="Peserta Upacara Berbaris di Lapangan"></span><span hidden class="gallery-slide gallery-photo-24" data-cap="Upacara Bendera di Halaman Sekolah"></span><span class="gallery-overlay"><span><small>6 FOTO</small><strong>Upacara Bendera</strong></span><i>↗</i></span></button>
+          <button class="gallery-item" data-image="belajar" data-caption="Kegiatan Belajar" aria-label="Lihat 9 foto kegiatan belajar"><span class="gallery-image gallery-photo-9"></span><span hidden class="gallery-slide gallery-photo-8" data-cap="Belajar dengan Layar Interaktif"></span><span hidden class="gallery-slide gallery-photo-9" data-cap="Guru Menjelaskan Materi di Layar"></span><span hidden class="gallery-slide gallery-photo-10" data-cap="Belajar Menggunakan Laptop"></span><span hidden class="gallery-slide gallery-photo-11" data-cap="Guru Menjelaskan di Papan Tulis"></span><span hidden class="gallery-slide gallery-photo-12" data-cap="Belajar di Kelas 6"></span><span hidden class="gallery-slide gallery-photo-15" data-cap="Guru Menulis di Papan Tulis"></span><span hidden class="gallery-slide gallery-photo-16" data-cap="Belajar di Kelas 2"></span><span hidden class="gallery-slide gallery-photo-17" data-cap="Pembelajaran Pendidikan Pancasila"></span><span hidden class="gallery-slide gallery-photo-18" data-cap="Belajar di Kelas 1"></span><span class="gallery-overlay"><span><small>9 FOTO</small><strong>Kegiatan Belajar</strong></span><i>↗</i></span></button>
+          <button class="gallery-item" data-image="maulid" data-caption="Peringatan Maulid Nabi" aria-label="Lihat 3 foto peringatan maulid nabi"><span class="gallery-image gallery-photo-5"></span><span hidden class="gallery-slide gallery-photo-5" data-cap="Peringatan Maulid Nabi Muhammad SAW"></span><span hidden class="gallery-slide gallery-photo-6" data-cap="Siswa dan Hiasan Maulid Kelas 3"></span><span hidden class="gallery-slide gallery-photo-7" data-cap="Hiasan Maulid Kelas 1"></span><span class="gallery-overlay"><span><small>3 FOTO</small><strong>Peringatan Maulid Nabi</strong></span><i>↗</i></span></button>
+          <button class="gallery-item" data-image="lomba" data-caption="Kegiatan yang Pernah Diikuti" aria-label="Lihat 4 foto kegiatan yang pernah diikuti"><span class="gallery-image gallery-photo-13"></span><span hidden class="gallery-slide gallery-photo-13" data-cap="Peserta Kegiatan bersama Guru Pendamping"></span><span hidden class="gallery-slide gallery-photo-14" data-cap="Peserta Kegiatan Pramuka bersama Pembina"></span><span hidden class="gallery-slide gallery-photo-25" data-cap="Peserta Berbusana Adat Membawa Hadiah"></span><span hidden class="gallery-slide gallery-photo-26" data-cap="Peserta Kegiatan Berbusana Adat"></span><span class="gallery-overlay"><span><small>4 FOTO</small><strong>Kegiatan yang Pernah Diikuti</strong></span><i>↗</i></span></button>
+        </div>
+        <p class="section-footnote">Semua foto di galeri adalah foto asli SD Negeri 1 Lampanairi. Pastikan izin publikasi foto siswa dan tenaga pendidik sudah diperoleh.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad section-anchor" id="kontak">
+      <div class="container contact-grid">
+        <div class="contact-intro"><span class="section-index section-index-light">05 / HUBUNGI KAMI</span><h2>Mari terhubung<br />dengan <span>sekolah kami.</span></h2><p>Untuk informasi lebih lanjut, silakan datang langsung ke sekolah atau hubungi kami melalui email.</p><div class="contact-decoration"><span>✳</span><span>✦</span><span>✳</span></div></div>
+        <div class="contact-panel">
+          <div class="contact-row"><div class="contact-symbol">⌖</div><div><span>ALAMAT SEKOLAH</span><p>Desa Lampanairi, Kec. Batauga<br /><small>Kab. Buton Selatan, Sulawesi Tenggara</small></p></div></div>
+          <div class="contact-row"><div class="contact-symbol">✉</div><div><span>EMAIL</span><p><a href="mailto:sdn1lampanairi@gmail.com">sdn1lampanairi@gmail.com</a></p></div></div>
+          <a class="button button-navy map-button" href="https://www.google.com/maps/search/?api=1&query=SD+Negeri+1+Lampanairi+Batauga+Buton+Selatan" target="_blank" rel="noopener noreferrer">Cari lokasi di Google Maps <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><a class="brand brand-footer" href="#beranda"><img src="logo.png" alt="" class="brand-logo" /><span class="brand-copy"><strong>SD NEGERI 1 LAMPANAIRI</strong><small>Mendidik dengan hati, tumbuh meraih prestasi</small></span></a><p>Media informasi dan pengenalan sekolah kepada masyarakat.</p><a href="#atas" class="back-top">Kembali ke atas ↑</a></div>
+    <div class="footer-bottom"><div class="container"><span>© <span id="year"></span> SD Negeri 1 Lampanairi</span><span>Website profil sekolah ·</span></div></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Pratinjau foto galeri">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup foto">×</button>
+    <div class="lightbox-content"><div class="lightbox-image" id="lightboxImage"></div><p id="lightboxCaption"></p></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
