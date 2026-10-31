@@ -114,10 +114,22 @@
 .gallery-photo-24{background-image:url('galeri-upacara-6.jpg');background-position:center 50%}
 .gallery-photo-25{background-image:url('galeri-lomba-3.jpg');background-position:center 50%}
 .gallery-photo-26{background-image:url('galeri-lomba-4.jpg');background-position:center 50%}
+.gallery-photo-27{background-image:url('galeri-guru-1.jpg');background-position:center 50%}
+.gallery-photo-28{background-image:url('galeri-guru-2.jpg');background-position:center 50%}
+.gallery-photo-29{background-image:url('galeri-guru-3.jpg');background-position:center 50%}
+.gallery-photo-30{background-image:url('galeri-guru-4.jpg');background-position:center 50%}
+.gallery-photo-31{background-image:url('galeri-guru-5.jpg');background-position:center 50%}
+.gallery-photo-32{background-image:url('galeri-guru-6.jpg');background-position:center 50%}
+.gallery-photo-33{background-image:url('galeri-guru-7.jpg');background-position:center 50%}
+.gallery-photo-34{background-image:url('galeri-guru-8.jpg');background-position:center 50%}
+.gallery-photo-35{background-image:url('galeri-guru-9.jpg');background-position:center 50%}
+.gallery-photo-36{background-image:url('galeri-guru-10.jpg');background-position:center 50%}
+.gallery-photo-37{background-image:url('galeri-guru-11.jpg');background-position:center 50%}
 .gallery-grid{grid-template-columns:repeat(2,1fr);grid-template-rows:none;grid-auto-rows:auto;gap:16px}
 .gallery-item{aspect-ratio:4/3}
-.gallery-item:last-child{grid-column:1/-1;justify-self:center;width:calc(50% - 8px)}
-@media(max-width:900px){.gallery-grid{gap:12px}.gallery-item:last-child{width:calc(50% - 6px)}}
-@media(max-width:600px){.gallery-grid{grid-template-columns:1fr}.gallery-item:last-child{grid-column:auto;width:100%}}
+.gallery-item:last-child{grid-column:auto}
+.gallery-item:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 8px)}
+@media(max-width:900px){.gallery-grid{gap:12px}.gallery-item:last-child:nth-child(odd){width:calc(50% - 6px)}}
+@media(max-width:600px){.gallery-grid{grid-template-columns:1fr}.gallery-item:last-child:nth-child(odd){grid-column:auto;width:100%}}
 .lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:46px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:32px;line-height:1;cursor:pointer}
 .lightbox-nav:hover{background:rgba(255,255,255,.28)}.lightbox-prev{left:14px}.lightbox-next{right:14px}
