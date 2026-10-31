@@ -125,6 +125,10 @@
 .gallery-photo-35{background-image:url('galeri-guru-9.jpg');background-position:center 50%}
 .gallery-photo-36{background-image:url('galeri-guru-10.jpg');background-position:center 50%}
 .gallery-photo-37{background-image:url('galeri-guru-11.jpg');background-position:center 50%}
+.gallery-photo-38{background-image:url('galeri-mpls-1.jpg');background-position:center 50%}
+.gallery-photo-39{background-image:url('galeri-mpls-2.jpg');background-position:center 50%}
+.gallery-photo-40{background-image:url('galeri-mpls-3.jpg');background-position:center 50%}
+.gallery-photo-41{background-image:url('galeri-mpls-4.jpg');background-position:center 50%}
 .gallery-grid{grid-template-columns:repeat(2,1fr);grid-template-rows:none;grid-auto-rows:auto;gap:16px}
 .gallery-item{aspect-ratio:4/3}
 .gallery-item:last-child{grid-column:auto}
